@@ -12,10 +12,24 @@ export default function Home() {
           </div>
 
           <div className="hidden md:flex gap-8 text-slate-600">
-            <a href="#">Home</a>
-            <a href="#capabilities">Capabilities</a>
-            <a href="#built">What I've Built</a>
-            <a href="#contact">Contact</a>
+            <a href="/" className="hover:text-slate-900">
+              Home
+            </a>
+
+            <a href="/experience" className="hover:text-slate-900">
+              Experience
+            </a>
+
+            <a href="#built" className="hover:text-slate-900">
+              What I've Built
+            </a>
+
+            <a
+              href="mailto:iarindambanerjee@gmail.com"
+              className="hover:text-slate-900"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </nav>
