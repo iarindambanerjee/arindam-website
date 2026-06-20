@@ -2,64 +2,262 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <main className="min-h-screen bg-slate-50">
+      {/* Navigation */}
+
+      <nav className="bg-white border-b sticky top-0 z-50">
+        <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
+          <div className="font-bold text-xl text-slate-900">
+            Arindam Banerjee
+          </div>
+
+          <div className="hidden md:flex gap-8 text-slate-600">
+            <a href="#">Home</a>
+            <a href="#capabilities">Capabilities</a>
+            <a href="#built">What I've Built</a>
+            <a href="#contact">Contact</a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      </nav>
+
+      {/* Hero */}
+
+      <section className="max-w-6xl mx-auto px-8 py-20">
+        <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h1 className="text-6xl font-bold text-slate-900 mb-6">
+              Arindam Banerjee
+            </h1>
+
+            <h2 className="text-2xl text-slate-600 mb-8">
+              Building Products, Platforms, Teams and Business Capabilities for
+              Over Two Decades
+            </h2>
+
+            <p className="text-xl text-slate-700 leading-relaxed mb-8">
+              Senior Technology Leader with 21+ years of experience delivering
+              transformation across banking, manufacturing, healthcare, gaming
+              and emerging technology domains.
+            </p>
+
+            <div className="flex gap-4 flex-wrap">
+              <a
+                href="https://www.linkedin.com/in/arindambanerjeeit/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800"
+              >
+                LinkedIn Profile
+              </a>
+
+              <a
+                href="mailto:iarindambanerjee@gmail.com"
+                className="border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100"
+              >
+                Contact Me
+              </a>
+            </div>
+          </div>
+
+          <div className="flex justify-center">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+              src="/arindam.jpg"
+              alt="Arindam Banerjee"
+              width={350}
+              height={350}
+              className="rounded-2xl shadow-lg"
+              priority
             />
-            Deploy Now
-          </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Metrics */}
+
+      <section className="max-w-6xl mx-auto px-8 pb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div className="text-4xl font-bold">21+</div>
+            <div className="text-slate-600 mt-2">Years Experience</div>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div className="text-4xl font-bold">$5M+</div>
+            <div className="text-slate-600 mt-2">Portfolio Managed</div>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div className="text-4xl font-bold">30+</div>
+            <div className="text-slate-600 mt-2">Projects Transitioned</div>
+          </div>
+
+          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div className="text-4xl font-bold">4+</div>
+            <div className="text-slate-600 mt-2">Centers of Excellence</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Build */}
+
+      <section className="max-w-6xl mx-auto px-8 py-12">
+        <div className="bg-slate-900 text-white rounded-2xl p-10">
+          <div className="text-sm uppercase tracking-wider mb-4">
+            Featured Build
+          </div>
+
+          <h2 className="text-4xl font-bold mb-6">
+            🤖 AI Center of Excellence
+          </h2>
+
+          <p className="text-lg text-slate-300 mb-8">
+            Built a cross-functional capability spanning governance, talent
+            development, reusable frameworks, AI accelerators and enterprise
+            adoption.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-4">
+            <div>✓ AI Strategy & Governance</div>
+            <div>✓ Talent Development</div>
+            <div>✓ Reusable Frameworks</div>
+            <div>✓ Enterprise Adoption</div>
+          </div>
+        </div>
+      </section>
+
+      {/* Core Capabilities */}
+
+      <section
+        id="capabilities"
+        className="max-w-6xl mx-auto px-8 py-16"
+      >
+        <h2 className="text-4xl font-bold mb-10">
+          Core Capabilities
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-4">
+              Technology Leadership
+            </h3>
+
+            <p>
+              Defining technology strategy, leading transformation programs,
+              and building high-performing teams.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-4">
+              Product & Delivery Excellence
+            </h3>
+
+            <p>
+              Turning ideas into products and delivering complex initiatives
+              at scale.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-4">
+              Building from Scratch
+            </h3>
+
+            <p>
+              Creating products, platforms, teams and organizational
+              capabilities from concept through execution.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What I've Built */}
+
+      <section
+        id="built"
+        className="max-w-6xl mx-auto px-8 py-16"
+      >
+        <h2 className="text-4xl font-bold mb-10">
+          What I've Built
+        </h2>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-3">
+              🤖 AI Center of Excellence
+            </h3>
+            <p>
+              Enterprise AI capability spanning governance,
+              frameworks, talent and adoption.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-3">
+              📊 Product Data Platform
+            </h3>
+            <p>
+              Global product intelligence platform enabling
+              governance, analytics and business decisions.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-3">
+              🌍 Global Delivery Centre
+            </h3>
+            <p>
+              Built governance, service delivery and successful
+              transition of 30+ projects.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-3">
+              🏦 Barclays Modernization
+            </h3>
+            <p>
+              Enterprise-scale legacy replacement and platform
+              transformation initiatives.
+            </p>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm">
+            <h3 className="text-xl font-semibold mb-3">
+              🏥 Healthcare Platforms
+            </h3>
+            <p>
+              Digital healthcare solutions focused on engagement,
+              accessibility and outcomes.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact */}
+
+      <section
+        id="contact"
+        className="max-w-6xl mx-auto px-8 py-20"
+      >
+        <div className="bg-slate-900 text-white rounded-2xl p-12 text-center">
+          <h2 className="text-4xl font-bold mb-4">
+            Let's Build Something Meaningful
+          </h2>
+
+          <p className="text-lg text-slate-300 mb-8">
+            Interested in technology leadership, product innovation,
+            capability building or digital transformation?
+          </p>
+
           <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="mailto:iarindambanerjee@gmail.com"
+            className="bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold"
           >
-            Documentation
+            Get In Touch
           </a>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
