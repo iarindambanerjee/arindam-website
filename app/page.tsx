@@ -337,6 +337,95 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* Certifications & Credentials */}
+
+<section className="max-w-6xl mx-auto px-8 py-20">
+  <div className="text-center mb-12">
+    <h2 className="text-4xl font-bold text-slate-900 mb-6">
+      Certifications & Credentials
+    </h2>
+
+    <p className="text-xl text-slate-600 max-w-3xl mx-auto">
+      Continuous learning has been a constant throughout my career,
+      combining leadership, architecture, cloud and service management
+      disciplines.
+    </p>
+  </div>
+
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        🏆 PMP
+      </h3>
+
+      <p className="text-slate-600">
+        Project Management Professional (PMP)
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        ⚙️ ITIL Foundation
+      </h3>
+
+      <p className="text-slate-600">
+        IT Service Management & Governance
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        ☁️ Microsoft Azure Fundamentals
+      </h3>
+
+      <p className="text-slate-600">
+        AZ-900
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        📊 Microsoft Azure Data Fundamentals
+      </h3>
+
+      <p className="text-slate-600">
+        DP-900
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        🏗 IBM SOA Architect
+      </h3>
+
+      <p className="text-slate-600">
+        IBM Certified SOA Solution Architect
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        🔧 IBM SOA Associate
+      </h3>
+
+      <p className="text-slate-600">
+        IBM Certified SOA Associate Programmer
+      </p>
+    </div>
+
+    <div className="bg-white rounded-xl p-8 shadow-sm">
+      <h3 className="text-xl font-semibold mb-3">
+        ☁️ AWS Cloud Technologies
+      </h3>
+
+      <p className="text-slate-600">
+        Compute • Storage • Networking • Databases
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* Executive Contact */}
 
       <section id="contact" className="max-w-6xl mx-auto px-8 py-20">
