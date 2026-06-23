@@ -65,7 +65,7 @@ export default function Home() {
                 href="mailto:iarindambanerjee@gmail.com"
                 className="border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100"
               >
-                Contact Me
+                Let's Talk
               </a>
             </div>
           </div>
@@ -517,7 +517,7 @@ export default function Home() {
 
           <div className="text-center">
             <a
-              href="mailto:iarindambanerjee@gmail.com"
+              href="#contact"
               className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold"
             >
               Start a Conversation
