@@ -337,6 +337,62 @@ export default function Home() {
         </div>
       </section>
 
+      {/* A Letter to Future Collaborators */}
+
+<section className="max-w-5xl mx-auto px-8 py-24">
+  <div className="bg-white rounded-3xl p-12 shadow-sm border-l-4 border-slate-900">
+    <h2 className="text-4xl font-bold text-slate-900 mb-10">
+      A Letter to Future Collaborators
+    </h2>
+
+    <div className="space-y-6 text-lg leading-relaxed text-slate-700">
+      <p>
+        If you're trying to modernize a platform, build a technology
+        capability, transform an organization, or create something that
+        does not yet exist, we already have something in common.
+      </p>
+
+      <p>
+        Throughout my career, I have been most energized by challenges
+        that sit at the intersection of technology, people and business
+        outcomes.
+      </p>
+
+      <p>
+        I am not interested in technology for its own sake. I am
+        interested in what technology enables:
+      </p>
+
+      <div className="pl-6 space-y-3 font-medium text-slate-900">
+        <p>✓ Better decisions</p>
+        <p>✓ Better customer experiences</p>
+        <p>✓ Stronger organizations</p>
+        <p>✓ New opportunities for growth</p>
+      </div>
+
+      <p>
+        Whether the challenge involves AI, cloud modernization,
+        product development, digital transformation or organizational
+        scaling, I believe the best outcomes emerge when strategy,
+        execution and leadership work together.
+      </p>
+
+      <p>
+        If you're building something meaningful, solving a difficult
+        problem, or leading a transformation journey, I'd welcome the
+        opportunity to exchange ideas and explore how we might create
+        value together.
+      </p>
+
+      <div className="pt-6 border-t border-slate-200">
+        <p className="font-semibold text-slate-900">
+          — Arindam Banerjee
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Certifications & Credentials */}
 
