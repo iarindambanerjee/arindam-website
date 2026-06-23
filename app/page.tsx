@@ -62,7 +62,7 @@ export default function Home() {
               </a>
 
               <a
-                href="mailto:iarindambanerjee@gmail.com"
+                href="#contact"
                 className="border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100"
               >
                 Let's Talk
