@@ -7,107 +7,181 @@ export default function Home() {
 
       <nav className="bg-white border-b sticky top-0 z-50">
         <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
-          <div className="font-bold text-xl text-slate-900">
-            Arindam Banerjee
-          </div>
+          <div>
+  <h1 className="text-2xl font-bold tracking-tight text-slate-900">
+    Arindam Banerjee
+  </h1>
 
-          <div className="hidden md:flex gap-8 text-slate-600">
-            <a href="/" className="hover:text-slate-900">
-              Home
-            </a>
+  <p className="text-xs uppercase tracking-[0.25em] text-slate-500 mt-1">
+    Technology • AI • Fractional CIO
+  </p>
+</div>
 
-            <a href="/experience" className="hover:text-slate-900">
-              Experience
-            </a>
+          <div className="hidden md:flex gap-8 text-slate-600 font-medium">
+  <a href="/" className="hover:text-slate-900 transition-colors">
+    Home
+  </a>
 
-            <a href="#built" className="hover:text-slate-900">
-              What I've Built
-            </a>
+  <a href="/services" className="hover:text-slate-900 transition-colors">
+    Services
+  </a>
 
-            <a href="#contact" className="hover:text-slate-900">
-              Contact
-            </a>
-          </div>
+  <a href="/experience" className="hover:text-slate-900 transition-colors">
+    Experience
+  </a>
+
+  <a href="#contact" className="hover:text-slate-900 transition-colors">
+    Contact
+  </a>
+</div>
         </div>
       </nav>
 
       {/* Hero */}
 
-      <section className="max-w-6xl mx-auto px-8 py-20">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 className="text-6xl font-bold text-slate-900 mb-6">
-              Arindam Banerjee
-            </h1>
+      <section className="max-w-7xl mx-auto px-8 py-24">
+  <div className="grid lg:grid-cols-[1.5fr_0.9fr] gap-20 items-center">
 
-            <h2 className="text-2xl text-slate-600 mb-8">
-              Building Products, Platforms, Teams and Business Capabilities for
-              Over Two Decades
-            </h2>
+    <div className="max-w-3xl">
 
-            <p className="text-xl text-slate-700 leading-relaxed mb-8">
-              Senior Technology Leader with 21+ years of experience delivering
-              transformation across banking, manufacturing, healthcare, gaming
-              and emerging technology domains.
-            </p>
+      <span className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm font-medium mb-8">
+        Technology Strategy • AI Advisory • Fractional CIO
+      </span>
 
-            <div className="flex gap-4 flex-wrap">
-              <a
-                href="https://www.linkedin.com/in/arindambanerjeeit/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-slate-900 text-white px-6 py-3 rounded-lg hover:bg-slate-800"
-              >
-                LinkedIn Profile
-              </a>
+      <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900">
+        Helping Growing Businesses Transform Through{" "}
+        <span className="text-blue-600 inline">
+          Technology, AI & Strategic Leadership
+        </span>
+      </h1>
 
-              <a
-                href="#contact"
-                className="border border-slate-300 px-6 py-3 rounded-lg hover:bg-slate-100"
-              >
-                Let's Talk
-              </a>
-            </div>
-          </div>
+      <p className="mt-8 text-xl text-slate-600 leading-9">
+        I partner with founders, CEOs and leadership teams to align technology
+        with business strategy, adopt AI with confidence and build organizations
+        that scale.
+      </p>
 
-          <div className="flex justify-center">
-            <Image
-              src="/arindam.jpg"
-              alt="Arindam Banerjee"
-              width={350}
-              height={350}
-              className="rounded-2xl shadow-lg"
-              priority
-            />
-          </div>
-        </div>
-      </section>
+      <p className="mt-6 text-lg text-slate-700 leading-8">
+        With over 21 years of experience across global enterprises and
+        high-growth businesses, I help organizations reduce technology risk,
+        accelerate transformation and make better strategic decisions.
+      </p>
 
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <a
+          href="#contact"
+          className="bg-slate-900 text-white px-8 py-4 rounded-xl font-semibold hover:bg-slate-800 transition"
+        >
+          Book a Free Strategy Session
+        </a>
+
+        <a
+          href="/services"
+          className="border border-slate-300 px-8 py-4 rounded-xl font-semibold hover:bg-slate-100 transition"
+        >
+          Explore Services
+        </a>
+
+      </div>
+
+    </div>
+
+    <div className="flex justify-center">
+
+      <Image
+        src="/arindam.jpg"
+        alt="Arindam Banerjee"
+        width={420}
+        height={420}
+        className="rounded-3xl shadow-2xl"
+        priority
+      />
+
+    </div>
+
+  </div>
+</section>
       {/* Metrics */}
 
-      <section className="max-w-6xl mx-auto px-8 pb-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-            <div className="text-4xl font-bold">21+</div>
-            <div className="text-slate-600 mt-2">Years Experience</div>
-          </div>
+      <section className="max-w-7xl mx-auto px-8 py-24">
 
-          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-            <div className="text-4xl font-bold">$5M+</div>
-            <div className="text-slate-600 mt-2">Portfolio Managed</div>
-          </div>
+  <div className="text-center mb-16">
 
-          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-            <div className="text-4xl font-bold">30+</div>
-            <div className="text-slate-600 mt-2">Projects Transitioned</div>
-          </div>
+    <span className="uppercase tracking-[0.3em] text-sm text-blue-600 font-semibold">
+      WHY CLIENTS WORK WITH ME
+    </span>
 
-          <div className="bg-white rounded-xl p-6 shadow-sm text-center">
-            <div className="text-4xl font-bold">4+</div>
-            <div className="text-slate-600 mt-2">Centers of Excellence</div>
-          </div>
-        </div>
-      </section>
+    <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-slate-900">
+      Technology Leadership Focused on
+      Business Outcomes
+    </h2>
+
+    <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
+      I don't sell technology.
+      I help businesses make better technology decisions that reduce risk,
+      improve efficiency and accelerate growth.
+    </p>
+
+  </div>
+
+  <div className="grid md:grid-cols-3 gap-8">
+
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
+
+      <div className="text-5xl mb-6">
+        🧠
+      </div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Executive Perspective
+      </h3>
+
+      <p className="text-slate-600 leading-8">
+        Technology strategy aligned with business goals,
+        financial priorities and long-term growth.
+      </p>
+
+    </div>
+
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
+
+      <div className="text-5xl mb-6">
+        ⚡
+      </div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Practical AI
+      </h3>
+
+      <p className="text-slate-600 leading-8">
+        AI initiatives designed around measurable ROI,
+        operational efficiency and customer value—not hype.
+      </p>
+
+    </div>
+
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
+
+      <div className="text-5xl mb-6">
+        🚀
+      </div>
+
+      <h3 className="text-2xl font-bold mb-4">
+        Proven Delivery
+      </h3>
+
+      <p className="text-slate-600 leading-8">
+        More than two decades leading transformation
+        across enterprises, product companies and
+        high-growth businesses.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
 
       {/* Featured Build */}
 
@@ -516,13 +590,13 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <a
-              href="#contact"
-              className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold"
-            >
-              Start a Conversation
-            </a>
-          </div>
+  <a
+    href="mailto:iarindambanerjee@gmail.com?subject=Website%20Inquiry"
+    className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100"
+  >
+    Send a Message
+  </a>
+</div>
         </div>
       </section>
     </main>
