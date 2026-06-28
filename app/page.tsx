@@ -3,40 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50">
-      {/* Navigation */}
-
-      <nav className="bg-white border-b sticky top-0 z-50">
-        <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
-          <div>
-  <h1 className="text-2xl font-bold tracking-tight text-slate-900">
-    Arindam Banerjee
-  </h1>
-
-  <p className="text-xs uppercase tracking-[0.25em] text-slate-500 mt-1">
-    Technology • AI • Fractional CIO
-  </p>
-</div>
-
-          <div className="hidden md:flex gap-8 text-slate-600 font-medium">
-  <a href="/" className="hover:text-slate-900 transition-colors">
-    Home
-  </a>
-
-  <a href="/services" className="hover:text-slate-900 transition-colors">
-    Services
-  </a>
-
-  <a href="/experience" className="hover:text-slate-900 transition-colors">
-    Experience
-  </a>
-
-  <a href="#contact" className="hover:text-slate-900 transition-colors">
-    Contact
-  </a>
-</div>
-        </div>
-      </nav>
-
+      
       {/* Hero */}
 
       <section className="max-w-7xl mx-auto px-8 py-24">
