@@ -1,4 +1,5 @@
 import Image from "next/image";
+import FeaturedTransformation from "@/components/home/FeaturedTransformation";
 
 export default function Home() {
   return (
@@ -150,32 +151,9 @@ export default function Home() {
 
 </section>
 
-      {/* Featured Build */}
+      {/* Featured Transformation */}
 
-      <section className="max-w-6xl mx-auto px-8 py-12">
-        <div className="bg-slate-900 text-white rounded-2xl p-10">
-          <div className="text-sm uppercase tracking-wider mb-4">
-            Featured Build
-          </div>
-
-          <h2 className="text-4xl font-bold mb-6">
-            🤖 AI Center of Excellence
-          </h2>
-
-          <p className="text-lg text-slate-300 mb-8">
-            Built a cross-functional capability spanning governance, talent
-            development, reusable frameworks, AI accelerators and enterprise
-            adoption.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-4">
-            <div>✓ AI Strategy & Governance</div>
-            <div>✓ Talent Development</div>
-            <div>✓ Reusable Frameworks</div>
-            <div>✓ Enterprise Adoption</div>
-          </div>
-        </div>
-      </section>
+<FeaturedTransformation />
 
       {/* Building What Doesn't Exist Yet */}
 
@@ -203,151 +181,90 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Core Capabilities */}
+      {/* How I Help Organisations */}
 
-      <section
-        id="capabilities"
-        className="max-w-6xl mx-auto px-8 py-16"
-      >
-        <h2 className="text-4xl font-bold mb-10">
-          Core Capabilities
-        </h2>
+<section className="max-w-6xl mx-auto px-8 py-20">
 
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-4">
-              Technology Leadership
-            </h3>
+  <div className="text-center mb-14">
 
-            <p>
-              Defining technology strategy, leading transformation programs,
-              and building high-performing teams.
-            </p>
-          </div>
+    <span className="uppercase tracking-[0.3em] text-sm text-blue-600 font-semibold">
+      HOW I HELP ORGANISATIONS
+    </span>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-4">
-              Product & Delivery Excellence
-            </h3>
+    <h2 className="mt-4 text-4xl lg:text-5xl font-bold text-slate-900">
+      Strategic Technology Leadership
+      for Sustainable Growth
+    </h2>
 
-            <p>
-              Turning ideas into products and delivering complex initiatives
-              at scale.
-            </p>
-          </div>
+    <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
+      I partner with leadership teams to align technology with business
+      objectives, modernise operations and build organisations that are
+      ready for the future.
+    </p>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-4">
-              Building from Scratch
-            </h3>
+  </div>
 
-            <p>
-              Creating products, platforms, teams and organizational
-              capabilities from concept through execution.
-            </p>
-          </div>
-        </div>
-      </section>
+  <div className="grid md:grid-cols-2 gap-8">
 
-      {/* What I've Built */}
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
 
-      <section id="built" className="max-w-6xl mx-auto px-8 py-16">
-        <h2 className="text-4xl font-bold mb-10">
-          What I've Built
-        </h2>
+      <h3 className="text-2xl font-bold mb-4">
+        Fractional CIO Leadership
+      </h3>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">
-              🤖 AI Center of Excellence
-            </h3>
-            <p>
-              Enterprise AI capability spanning governance, frameworks, talent
-              and adoption.
-            </p>
-          </div>
+      <p className="text-slate-600 leading-8">
+        Executive technology leadership, operating models,
+        governance frameworks and strategic decision support
+        without the cost of a full-time CIO.
+      </p>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">
-              📊 Product Data Platform
-            </h3>
-            <p>
-              Global product intelligence platform enabling governance,
-              analytics and business decisions.
-            </p>
-          </div>
+    </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">
-              🌍 Global Delivery Centre
-            </h3>
-            <p>
-              Built governance, service delivery and successful transition of
-              30+ projects.
-            </p>
-          </div>
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">
-              🏦 Barclays Modernization
-            </h3>
-            <p>
-              Enterprise-scale legacy replacement and platform transformation
-              initiatives.
-            </p>
-          </div>
+      <h3 className="text-2xl font-bold mb-4">
+        Digital Transformation
+      </h3>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-xl font-semibold mb-3">
-              🏥 Healthcare Platforms
-            </h3>
-            <p>
-              Digital healthcare solutions focused on engagement, accessibility
-              and outcomes.
-            </p>
-          </div>
-        </div>
-      </section>
+      <p className="text-slate-600 leading-8">
+        Modernising platforms, improving delivery capability,
+        establishing governance and leading organisation-wide
+        transformation initiatives.
+      </p>
 
-      {/* How I Can Help */}
+    </div>
 
-      <section className="max-w-6xl mx-auto px-8 py-20">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-slate-900 mb-6">
-            How I Can Help
-          </h2>
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
 
-          <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
-            Over the past two decades, I have partnered with organizations to
-            build products, modernize platforms, establish technology
-            capabilities and deliver transformation programs that create
-            measurable business outcomes.
-          </p>
-        </div>
+      <h3 className="text-2xl font-bold mb-4">
+        AI & Innovation
+      </h3>
 
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-2xl font-bold mb-4">🚀 Technology Leadership</h3>
-            <p>Technology strategy, operating models, governance frameworks and leadership.</p>
-          </div>
+      <p className="text-slate-600 leading-8">
+        Identifying practical AI opportunities, establishing
+        Centres of Excellence and helping organisations adopt
+        AI responsibly.
+      </p>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-2xl font-bold mb-4">🌐 Product & Platform Modernization</h3>
-            <p>Modernizing legacy systems, building digital platforms and scalable foundations.</p>
-          </div>
+    </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-2xl font-bold mb-4">🤖 AI & Innovation</h3>
-            <p>Establishing AI Centers of Excellence and innovation frameworks.</p>
-          </div>
+    <div className="bg-white rounded-2xl p-8 shadow-sm border">
 
-          <div className="bg-white p-8 rounded-xl shadow-sm">
-            <h3 className="text-2xl font-bold mb-4">📈 Delivery & Transformation</h3>
-            <p>Driving business outcomes through program leadership and transformation.</p>
-          </div>
-        </div>
-      </section>
+      <h3 className="text-2xl font-bold mb-4">
+        Product & Delivery Excellence
+      </h3>
 
+      <p className="text-slate-600 leading-8">
+        Delivering complex technology programmes, scaling teams
+        and turning business ideas into successful products and
+        digital capabilities.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
       {/* Leadership Philosophy */}
 
       <section className="max-w-5xl mx-auto px-8 py-20">

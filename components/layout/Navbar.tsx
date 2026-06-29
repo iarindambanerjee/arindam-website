@@ -10,10 +10,12 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const navigation = [
-    { name: "Home", href: "/" },
-    { name: "Services", href: "/services" },
-    { name: "Experience", href: "/experience" },
-  ];
+  { name: "Home", href: "/" },
+  { name: "Services", href: "/services" },
+  { name: "How We Work", href: "/how-we-work" },
+  { name: "Experience", href: "/experience" },
+  { name: "Transformation Stories", href: "/transformation-stories" },
+];
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
