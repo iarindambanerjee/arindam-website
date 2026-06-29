@@ -42,7 +42,7 @@ export default function Home() {
   href={siteConfig.calendly}
   target="_blank"
   rel="noopener noreferrer"
-  className="..."
+  className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
 >
   Book a Discovery Call
 </a>
