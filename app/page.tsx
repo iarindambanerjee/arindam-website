@@ -1,5 +1,6 @@
 import Image from "next/image";
 import FeaturedTransformation from "@/components/home/FeaturedTransformation";
+import { siteConfig } from "@/data/siteConfig";
 
 export default function Home() {
   return (
@@ -474,12 +475,14 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-  <a
-    href="mailto:iarindambanerjee@gmail.com?subject=Website%20Inquiry"
-    className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100"
-  >
-    Send a Message
-  </a>
+ <a
+  href={siteConfig.calendly}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100"
+>
+  Book a Discovery Call
+</a>
 </div>
         </div>
       </section>

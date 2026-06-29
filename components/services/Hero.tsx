@@ -1,3 +1,5 @@
+import { siteConfig } from "@/data/siteConfig";
+
 export default function Hero() {
   return (
     <section className="bg-gradient-to-b from-white to-slate-50">
@@ -30,12 +32,14 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-wrap gap-4">
 
-            <a
-              href="/#contact"
-              className="rounded-xl bg-slate-900 px-8 py-4 font-semibold text-white hover:bg-slate-800 transition"
-            >
-              Book a Free Strategy Session
-            </a>
+<a
+  href={siteConfig.calendly}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
+>
+  Book a Discovery Call
+</a>
 
             <a
               href="/experience"
@@ -44,14 +48,7 @@ export default function Hero() {
               View Experience
             </a>
 
-            <a
-              href="/"
-              className="rounded-xl border border-slate-300 px-8 py-4 font-semibold hover:bg-slate-100 transition"
-            >
-              ← Back to Home
-            </a>
-
-          </div>
+            </div>
 
         </div>
 
