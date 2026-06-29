@@ -39,11 +39,13 @@ export default function Home() {
       <div className="mt-10 flex flex-wrap gap-4">
 
         <a
-          href="#contact"
-          className="bg-slate-900 text-white px-8 py-4 rounded-xl font-semibold hover:bg-slate-800 transition"
-        >
-          Book a Free Strategy Session
-        </a>
+  href={siteConfig.calendly}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="..."
+>
+  Book a Discovery Call
+</a>
 
         <a
           href="/services"
