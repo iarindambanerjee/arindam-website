@@ -15,11 +15,13 @@ export default function DiscoveryCallButton({
   source,
 }: DiscoveryCallButtonProps) {
   const handleClick = () => {
-    trackEvent("book_discovery_call", {
-      source,
-      page: window.location.pathname,
-    });
-  };
+  console.log("Discovery Call clicked", source);
+
+  trackEvent("book_discovery_call", {
+    source,
+    page: window.location.pathname,
+  });
+};
 
   return (
     <a
