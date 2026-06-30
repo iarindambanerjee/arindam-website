@@ -1,4 +1,4 @@
-import { siteConfig } from "@/data/siteConfig";
+import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
 
 export default function Hero() {
   return (
@@ -32,14 +32,12 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-wrap gap-4">
 
-<a
-  href={siteConfig.calendly}
-  target="_blank"
-  rel="noopener noreferrer"
+<DiscoveryCallButton
+  source="services_hero"
   className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
 >
   Book a Discovery Call
-</a>
+</DiscoveryCallButton>
 
             <a
               href="/experience"

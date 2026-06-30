@@ -1,6 +1,7 @@
 import Image from "next/image";
 import FeaturedTransformation from "@/components/home/FeaturedTransformation";
 import { siteConfig } from "@/data/siteConfig";
+import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
 
 export default function Home() {
   return (
@@ -38,14 +39,12 @@ export default function Home() {
 
       <div className="mt-10 flex flex-wrap gap-4">
 
-        <a
-  href={siteConfig.calendly}
-  target="_blank"
-  rel="noopener noreferrer"
+<DiscoveryCallButton
+  source="home_hero"
   className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
 >
   Book a Discovery Call
-</a>
+</DiscoveryCallButton>
 
         <a
           href="/services"
@@ -477,14 +476,12 @@ export default function Home() {
           </div>
 
           <div className="text-center">
- <a
-  href={siteConfig.calendly}
-  target="_blank"
-  rel="noopener noreferrer"
+<DiscoveryCallButton
+ source="home_contact"
   className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100"
 >
   Book a Discovery Call
-</a>
+</DiscoveryCallButton>
 </div>
         </div>
       </section>

@@ -1,5 +1,5 @@
 
-import { siteConfig } from "@/data/siteConfig";
+import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
 
 
 export default function CTA() {
@@ -25,14 +25,12 @@ export default function CTA() {
 
         <div className="mt-12 flex flex-wrap justify-center gap-5">
 
-         <a
-  href={siteConfig.calendly}
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold transition"
+        <DiscoveryCallButton
+  source="services_cta"
+   className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-semibold transition"
 >
   Book a Discovery Call
-</a>
+</DiscoveryCallButton>
           <a
             href="/experience"
             className="border border-slate-500 hover:border-white hover:bg-white hover:text-slate-900 px-8 py-4 rounded-xl font-semibold transition"

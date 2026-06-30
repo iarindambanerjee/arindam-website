@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react";
+import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
 
 export default function CTA() {
   return (
@@ -23,14 +24,12 @@ export default function CTA() {
         </p>
 
         <div className="mt-14 flex flex-wrap justify-center gap-5">
-
-          <a
-            href="/#contact"
-            className="inline-flex items-center gap-3 rounded-xl bg-white px-8 py-4 font-semibold text-slate-900 transition hover:bg-slate-100"
-          >
-            Book a Discovery Call
-            <ArrowRight size={18} />
-          </a>
+<DiscoveryCallButton
+  source="services_cta"
+  className="rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700"
+>
+  Book a Discovery Call
+</DiscoveryCallButton>
 
           <a
             href="/services"

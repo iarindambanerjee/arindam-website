@@ -1,10 +1,14 @@
+
+
+
 "use client";
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { siteConfig } from "@/data/siteConfig";
+import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
+
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -60,14 +64,14 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
 
-         <a
-         href={siteConfig.calendly}
-         target="_blank"
-         rel="noopener noreferrer"
-         className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
-         >
-          Book a Discovery Call
-        </a>
+         
+
+        <DiscoveryCallButton
+  source="navbar"
+  className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
+>
+  Book a Discovery Call
+</DiscoveryCallButton>
 
           {/* Mobile Menu Button */}
 
@@ -107,15 +111,13 @@ export default function Navbar() {
               );
             })}
 
-            <a
-  href={siteConfig.calendly}
-  target="_blank"
-  rel="noopener noreferrer"
-  onClick={() => setMobileOpen(false)}
-  className="inline-flex mt-4 bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold"
+            
+<DiscoveryCallButton
+  source="navbar"
+   className="inline-flex mt-4 bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold"
 >
   Book a Discovery Call
-</a>
+</DiscoveryCallButton>
 
           </div>
 
