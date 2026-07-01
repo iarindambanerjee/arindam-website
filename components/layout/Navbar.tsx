@@ -14,11 +14,12 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  const navigation = [
+const navigation = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
   { name: "How We Work", href: "/how-we-work" },
   { name: "Experience", href: "/experience" },
+  { name: "Insights", href: "/insights" },
   { name: "Transformation Stories", href: "/transformation-stories" },
 ];
 

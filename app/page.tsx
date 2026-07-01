@@ -15,26 +15,30 @@ export default function Home() {
     <div className="max-w-3xl">
 
       <span className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm font-medium mb-8">
-        Technology Strategy • AI Advisory • Fractional CIO
+        Fractional CIO • AI Advisory • Executive Technology Leadership
       </span>
 
       <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900">
-        Helping Growing Businesses Transform Through{" "}
+        Helping CEOs Scale Their Business Through{" "}
         <span className="text-blue-600 inline">
-          Technology, AI & Strategic Leadership
+          Technology, AI & Executive Leadership
         </span>
       </h1>
 
       <p className="mt-8 text-xl text-slate-600 leading-9">
-        I partner with founders, CEOs and leadership teams to align technology
-        with business strategy, adopt AI with confidence and build organizations
-        that scale.
-      </p>
+  Technology should accelerate business growth—not become a barrier to it.
+</p>
+
+<p className="mt-6 text-xl text-slate-600 leading-9">
+  I partner with founders, CEOs and leadership teams to modernise technology,
+  build practical AI strategies and deliver digital transformation that creates
+  measurable business value.
+</p>
 
       <p className="mt-6 text-lg text-slate-700 leading-8">
-        With over 21 years of experience across global enterprises and
-        high-growth businesses, I help organizations reduce technology risk,
-        accelerate transformation and make better strategic decisions.
+       With over 21 years of executive technology leadership across global
+enterprises and high-growth companies, I help organisations reduce risk,
+improve operational efficiency and make confident technology decisions.
       </p>
 
       <div className="mt-10 flex flex-wrap gap-4">
@@ -72,9 +76,43 @@ export default function Home() {
 
   </div>
 </section>
-      {/* Metrics */}
+      {/* TRUSTED THROUGH EXECUTIVE LEADERSHIP*/}
 
-      <section className="max-w-7xl mx-auto px-8 py-24">
+<section className="max-w-7xl mx-auto px-8 py-16">
+
+  <div className="text-center">
+
+    <p className="uppercase tracking-[0.3em] text-sm text-slate-500 font-semibold mb-8">
+      TRUSTED THROUGH EXECUTIVE LEADERSHIP
+    </p>
+    <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
+  Over two decades delivering executive technology leadership across
+  global enterprises and high-growth technology companies.
+</p>
+
+    <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 text-xl font-medium text-slate-800">
+
+      <span>IBM</span>
+
+      <span>Accenture</span>
+
+      <span>Firmenich</span>
+
+      <span>Persistent</span>
+
+      <span>Red Apple</span>
+
+      <span>Matellio</span>
+
+    </div>
+
+   
+
+  </div>
+
+</section>
+
+      <section className="max-w-7xl mx-auto px-8 pt-10 pb-24">
 
   <div className="text-center mb-16">
 
@@ -88,9 +126,10 @@ export default function Home() {
     </h2>
 
     <p className="mt-6 text-xl text-slate-600 max-w-3xl mx-auto">
-      I don't sell technology.
-      I help businesses make better technology decisions that reduce risk,
-      improve efficiency and accelerate growth.
+      Technology is never the goal. Business growth is.
+
+I help organisations make technology decisions that reduce risk,
+improve efficiency and create measurable business value.
     </p>
 
   </div>
@@ -162,7 +201,7 @@ export default function Home() {
       <section className="max-w-6xl mx-auto px-8 py-16">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-slate-900 mb-6">
-            Building What Doesn't Exist Yet
+            Technology That Creates Business Value
           </h2>
 
           <p className="text-xl text-slate-600 max-w-4xl mx-auto leading-relaxed">
@@ -277,7 +316,7 @@ export default function Home() {
 
           <div className="bg-white rounded-2xl p-12 shadow-sm">
             <p className="text-2xl leading-relaxed text-slate-700 mb-8">
-              Technology leadership is not about managing delivery.
+              Technology leadership is about enabling business success.
             </p>
 
             <p className="text-2xl leading-relaxed text-slate-700 mb-8">
@@ -454,7 +493,8 @@ export default function Home() {
             <p className="text-xl text-slate-300 max-w-3xl mx-auto">
               Whether you're scaling a technology organization, modernizing a platform,
               building an AI capability, or leading a transformation initiative,
-              I'd love to explore how I can help.
+              Let's discuss your goals, your challenges and whether my experience
+              can help accelerate your business.
             </p>
           </div>
 
