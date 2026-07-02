@@ -21,10 +21,10 @@ export default function FeaturedArticle() {
         </p>
 
         <Link
-          href="#"
+          href="/insights/does-your-growing-business-need-a-cto-or-a-fractional-cio"
           className="inline-flex mt-8 text-blue-600 font-semibold hover:text-blue-700"
         >
-          Article Coming Soon →
+          Read Executive Insight →
         </Link>
 
       </div>
