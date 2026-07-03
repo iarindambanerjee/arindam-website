@@ -47,7 +47,7 @@ improve operational efficiency and make confident technology decisions.
   source="home_hero"
   className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
 >
-  Book a Discovery Call
+  Free Strategy Assessment
 </DiscoveryCallButton>
 
         <a
@@ -520,7 +520,7 @@ improve efficiency and create measurable business value.
  source="home_contact"
   className="inline-block bg-white text-slate-900 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100"
 >
-  Book a Discovery Call
+  Free Strategy Assessment
 </DiscoveryCallButton>
 </div>
         </div>
