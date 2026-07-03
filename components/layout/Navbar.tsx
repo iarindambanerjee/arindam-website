@@ -17,10 +17,9 @@ export default function Navbar() {
 const navigation = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services" },
-  { name: "How We Work", href: "/how-we-work" },
-  { name: "Experience", href: "/experience" },
+  { name: "Assessment", href: "/assessment" },
   { name: "Insights", href: "/insights" },
-  { name: "Transformation Stories", href: "/transformation-stories" },
+  { name: "Experience", href: "/experience" },
 ];
 
   return (
@@ -67,12 +66,12 @@ const navigation = [
 
          
 
-        <DiscoveryCallButton
-  source="navbar"
+        <Link
+  href="/assessment"
   className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
 >
-  Book a Discovery Call
-</DiscoveryCallButton>
+  Free Strategy Assessment
+</Link>
 
           {/* Mobile Menu Button */}
 
@@ -113,12 +112,13 @@ const navigation = [
             })}
 
             
-<DiscoveryCallButton
-  source="navbar"
-   className="inline-flex mt-4 bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold"
+<Link
+  href="/assessment"
+  onClick={() => setMobileOpen(false)}
+  className="inline-flex mt-4 bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
 >
-  Book a Discovery Call
-</DiscoveryCallButton>
+  Free Strategy Assessment
+</Link>
 
           </div>
 

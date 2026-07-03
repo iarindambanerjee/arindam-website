@@ -108,6 +108,141 @@ export default function ArticlePage() {
           <br /><br />
           Those are not always the same thing.
         </blockquote>
+        <h2>Five Questions Every CEO Should Ask Before Hiring a Technology Executive</h2>
+
+<p>
+One of the biggest mistakes organisations make is rushing into recruitment before they have complete clarity on the problem they are trying to solve.
+</p>
+
+<p>
+Over the years, I've found that asking the right questions early almost always leads to better technology decisions later.
+</p>
+
+<ol>
+
+<li>
+<strong>1. Are we solving a technology problem or a business problem?</strong>
+
+<p>
+Technology is rarely the root cause. More often, it's the way technology supports—or fails to support—the business that requires attention.
+</p>
+
+</li>
+
+<li>
+
+<strong>2. Do we have a clear technology strategy?</strong>
+
+<p>
+If technology investments aren't aligned with business objectives, adding another executive will only improve execution, not direction.
+</p>
+
+</li>
+
+<li>
+
+<strong>3. Are we investing in innovation or simply adding complexity?</strong>
+
+<p>
+Growth often results in more applications, more vendors and more technical debt. The objective should be simplification before expansion.
+</p>
+
+</li>
+
+<li>
+
+<strong>4. Is AI part of a business strategy or simply an experiment?</strong>
+
+<p>
+Artificial Intelligence should support measurable business outcomes. Without governance and executive sponsorship, AI initiatives frequently fail to move beyond isolated pilots.
+</p>
+
+</li>
+
+<li>
+
+<strong>5. Does this role need to be permanent today?</strong>
+
+<p>
+Many growing businesses benefit from experienced executive leadership during periods of transformation before deciding whether a permanent executive appointment is necessary.
+</p>
+
+</li>
+
+</ol>
+<h2>When a CTO Is the Right Choice</h2>
+
+<p>
+While this article focuses on the value of strategic technology leadership, there are many situations where appointing a Chief Technology Officer is absolutely the right decision.
+</p>
+
+<p>
+A CTO becomes essential when technology itself is your competitive advantage.
+</p>
+
+<ul>
+
+<li>You're building a software product.</li>
+
+<li>Your engineering organisation is growing rapidly.</li>
+
+<li>Product innovation drives revenue.</li>
+
+<li>You require deep architectural leadership.</li>
+
+<li>Engineering excellence is the company's primary strategic priority.</li>
+
+</ul>
+
+<p>
+In these situations, a CTO provides the technical vision, engineering leadership and product innovation required to build long-term competitive advantage.
+</p>
+
+<p>
+The important point is that organisations should hire the executive who solves today's business challenge—not simply the title that appears most frequently in the market.
+</p>
+<h2>Final Thoughts</h2>
+
+<p>
+Every growing organisation eventually reaches a stage where technology decisions become business decisions.
+</p>
+
+<p>
+The question is no longer whether technology matters.
+</p>
+
+<p>
+The question is whether the organisation has the right leadership to ensure technology investments create measurable business value.
+</p>
+
+<p>
+Sometimes that leadership comes from a CTO.
+</p>
+
+<p>
+Sometimes it comes from a CIO.
+</p>
+
+<p>
+Increasingly, growing organisations are recognising the value of experienced executive leadership on a flexible basis through a Fractional CIO model.
+</p>
+
+<p>
+There is no universal answer.
+</p>
+
+<p>
+The right decision depends entirely on the business challenge you're trying to solve.
+</p>
+
+<blockquote>
+The most successful organisations don't begin by asking,
+"Who should we hire?"
+
+They begin by asking,
+
+"What capability does our business need next?"
+</blockquote>
       </section>
     </article>
   );
