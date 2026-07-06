@@ -3,24 +3,19 @@
 
 "use client";
 
+import { navigation } from "@/data/navigation";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
+
 
 
 export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
-const navigation = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "Assessment", href: "/assessment" },
-  { name: "Insights", href: "/insights" },
-  { name: "Experience", href: "/experience" },
-];
+
 
   return (
     <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
@@ -30,12 +25,20 @@ const navigation = [
 
           {/* Logo */}
 
-          <Link
-            href="/"
-            className="text-2xl font-bold tracking-tight text-slate-900 hover:text-blue-600 transition-colors"
-          >
-            Arindam Banerjee
-          </Link>
+         <Link
+  href="/"
+  className="hover:text-blue-600 transition-colors"
+>
+  <div className="leading-tight">
+    <div className="text-2xl font-bold tracking-tight text-slate-900">
+      Arindam Banerjee
+    </div>
+
+    <div className="text-xs uppercase tracking-[0.25em] text-slate-500">
+      Technology Leadership
+    </div>
+  </div>
+</Link>
 
           {/* Desktop Navigation */}
 
@@ -67,10 +70,12 @@ const navigation = [
          
 
         <Link
-  href="/assessment"
-  className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
+  href="https://www.linkedin.com/in/arindambanerjeeit/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition-all duration-300"
 >
-  Free Strategy Assessment
+  Connect on LinkedIn
 </Link>
 
           {/* Mobile Menu Button */}

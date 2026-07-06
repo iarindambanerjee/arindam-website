@@ -1,5 +1,5 @@
 import { ArrowRight } from "lucide-react";
-import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
+import DiscoveryCallButton from "@/components/ui/DiscoveryCallButton";
 
 export default function CTA() {
   return (

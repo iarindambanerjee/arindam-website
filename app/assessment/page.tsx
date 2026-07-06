@@ -1,4 +1,4 @@
-import DiscoveryCallButton from "@/components/shared/DiscoveryCallButton";
+import DiscoveryCallButton from "@/components/ui/DiscoveryCallButton";
 
 export const metadata = {
   title: "Free Technology Strategy Assessment",

@@ -1,3 +1,5 @@
+import DiscoveryCallButton from "@/components/ui/DiscoveryCallButton";
+
 export default function Hero() {
   return (
     <section className="bg-gradient-to-b from-white via-slate-50 to-white">
@@ -33,12 +35,12 @@ export default function Hero() {
 
           <div className="mt-12 flex flex-wrap gap-4">
 
-            <a
-              href="/#contact"
-              className="rounded-xl bg-slate-900 px-8 py-4 font-semibold text-white hover:bg-slate-800 transition"
-            >
-              Book a Discovery Call
-            </a>
+ <DiscoveryCallButton
+  source="services_hero"   // Change for each page
+  className="rounded-xl bg-slate-900 px-8 py-4 font-semibold text-white hover:bg-slate-800 transition"
+>
+  Book a Discovery Call
+</DiscoveryCallButton>
 
             <a
               href="/services"

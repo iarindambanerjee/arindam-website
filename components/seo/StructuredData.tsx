@@ -9,24 +9,25 @@ export default function StructuredData() {
 
     image: "https://www.arindam-banerjee.com/og-image.jpg",
 
-    jobTitle: "Fractional CIO",
+    jobTitle: "Senior Manager",
 
     description:
-      "Fractional CIO helping founders, CEOs and growing businesses modernise technology, adopt AI responsibly and deliver digital transformation.",
+      "Technology leader with more than 21 years of experience delivering enterprise technology transformation, AI strategy, digital transformation and delivery excellence across global organisations.",
 
     knowsAbout: [
-      "Technology Strategy",
-      "Artificial Intelligence",
-      "Digital Transformation",
-      "Enterprise Architecture",
-      "Cloud Computing",
       "Technology Leadership",
-      "IT Strategy",
-      "Fractional CIO",
+      "Enterprise Technology",
+      "Digital Transformation",
+      "AI Strategy",
+      "Enterprise Architecture",
+      "Cloud Transformation",
+      "Programme Management",
+      "Technology Strategy",
+      "Delivery Excellence",
     ],
 
     sameAs: [
-      "https://www.linkedin.com/in/iarindambanerjee",
+      "https://www.linkedin.com/in/arindambanerjeeit/",
     ],
   };
 

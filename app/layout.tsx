@@ -19,29 +19,28 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.arindam-banerjee.com"),
 
-  title: {
-    default:
-      "Fractional CIO | AI & Technology Strategy | Arindam Banerjee",
-    template: "%s | Arindam Banerjee",
-  },
+ title: {
+  default: "Arindam Banerjee | Technology Leadership",
+  template: "%s | Arindam Banerjee",
+},  
 
   description:
-    "Fractional CIO helping founders, CEOs and growing businesses modernise technology, adopt AI responsibly and build scalable digital capabilities through strategic technology leadership.",
+  "Technology leader with more than 21 years of experience delivering enterprise technology transformation, AI strategy, digital transformation and delivery excellence across global organisations.",
 
   keywords: [
-    "Fractional CIO",
-    "Interim CIO",
-    "Technology Strategy",
-    "Technology Consultant",
-    "Digital Transformation",
-    "AI Strategy",
-    "AI Advisory",
-    "Technology Leadership",
-    "Enterprise Architecture",
-    "Cloud Transformation",
-    "IT Strategy",
-    "Digital Modernisation",
-  ],
+  "Technology Leadership",
+  "Enterprise Technology",
+  "Digital Transformation",
+  "AI Strategy",
+  "Enterprise Architecture",
+  "Programme Management",
+  "Technology Strategy",
+  "Cloud Transformation",
+  "Delivery Excellence",
+  "Technology Modernisation",
+  "Leadership",
+  "Persistent Systems",
+],
 
   authors: [
     {
@@ -69,17 +68,17 @@ export const metadata: Metadata = {
     siteName: "Arindam Banerjee",
 
     title:
-      "Fractional CIO | AI & Technology Strategy | Arindam Banerjee",
+  "Arindam Banerjee | Technology Leadership",
 
     description:
-      "Helping founders, CEOs and growing businesses modernise technology, adopt AI responsibly and build scalable digital capabilities through strategic technology leadership.",
+  "Technology leader with more than 21 years of experience delivering enterprise technology transformation, AI strategy and business-focused technology leadership.",
 
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Arindam Banerjee | Fractional CIO",
+        alt: "Arindam Banerjee | Technology Leadership",
       },
     ],
   },
@@ -88,10 +87,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
 
     title:
-      "Fractional CIO | AI & Technology Strategy | Arindam Banerjee",
+  "Arindam Banerjee | Technology Leadership",
 
     description:
-      "Helping organisations modernise technology, adopt AI responsibly and accelerate digital transformation.",
+  "Enterprise technology leader specialising in digital transformation, AI strategy and delivery excellence.",
 
     images: ["/og-image.jpg"],
   },

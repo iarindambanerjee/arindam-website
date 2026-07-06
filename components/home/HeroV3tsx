@@ -1,0 +1,70 @@
+import Image from "next/image";
+
+export default function HeroV3() {
+  return (
+    <section className="max-w-7xl mx-auto px-8 py-24">
+      <div className="grid lg:grid-cols-[1.5fr_0.9fr] gap-20 items-center">
+
+        <div className="max-w-3xl">
+
+          <span className="inline-flex items-center rounded-full bg-slate-900 text-white px-4 py-2 text-sm font-medium mb-8">
+            Senior Manager • Persistent Systems
+          </span>
+
+          <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold tracking-tight leading-[1.1] text-slate-900">
+            Technology Leadership That Creates{" "}
+            <span className="text-blue-600">
+              Lasting Business Value
+            </span>
+          </h1>
+
+          <p className="mt-8 text-xl text-slate-600 leading-9">
+            I am a technology leader with more than 21 years of experience
+            leading enterprise technology transformation, AI strategy,
+            digital delivery and business-aligned technology initiatives
+            across global organisations.
+          </p>
+
+          <p className="mt-6 text-lg text-slate-700 leading-8">
+            This website shares my professional journey, leadership philosophy
+            and perspectives on enterprise technology, innovation and digital
+            transformation.
+          </p>
+
+          <div className="mt-10 flex flex-wrap gap-4">
+
+            <a
+              href="/experience"
+              className="rounded-xl bg-slate-900 text-white px-8 py-4 font-semibold hover:bg-slate-800 transition"
+            >
+              Explore My Experience
+            </a>
+
+            <a
+              href="/insights"
+              className="border border-slate-300 px-8 py-4 rounded-xl font-semibold hover:bg-slate-100 transition"
+            >
+              Read My Insights
+            </a>
+
+          </div>
+
+        </div>
+
+        <div className="flex justify-center">
+
+          <Image
+            src="/arindam.jpg"
+            alt="Arindam Banerjee"
+            width={420}
+            height={420}
+            priority
+            className="rounded-3xl shadow-2xl"
+          />
+
+        </div>
+
+      </div>
+    </section>
+  );
+}
