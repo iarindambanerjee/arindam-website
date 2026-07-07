@@ -15,6 +15,8 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  console.log(navigation);
+
 
 
   return (
@@ -44,7 +46,14 @@ export default function Navbar() {
 
           <nav className="hidden md:flex items-center gap-10">
 
-            {navigation.map((item) => {
+            {[
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
+  { name: "Experience", href: "/experience" },
+  { name: "Industries", href: "/industries" },
+  { name: "Insights", href: "/insights" },
+  { name: "Contact", href: "/contact" },
+].map((item) => {
 
               const active = pathname === item.href;
 
@@ -117,13 +126,7 @@ export default function Navbar() {
             })}
 
             
-<Link
-  href="/assessment"
-  onClick={() => setMobileOpen(false)}
-  className="inline-flex mt-4 bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition"
->
-  Free Strategy Assessment
-</Link>
+
 
           </div>
 

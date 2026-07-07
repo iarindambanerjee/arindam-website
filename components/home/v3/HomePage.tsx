@@ -1,10 +1,9 @@
 import Hero from "@/components/home/v3/Hero";
 import ExecutiveHighlights from "@/components/home/v3/ExecutiveHighlights";
 import LeadershipPhilosophy from "@/components/home/v3/LeadershipPhilosophy";
-import CareerJourney from "@/components/home/v3/CareerJourney";
 import FeaturedInsights from "@/components/home/v3/FeaturedInsights";
-// Uncomment after we create it
-// import Connect from "@/components/home/v3/Connect";
+import Connect from "@/components/home/v3/Connect";
+import IndustriesPreview from "@/components/home/v3/IndustriesPreview";
 
 export default function HomePage() {
   return (
@@ -12,9 +11,9 @@ export default function HomePage() {
       <Hero />
       <ExecutiveHighlights />
       <LeadershipPhilosophy />
-      <CareerJourney />
+      <IndustriesPreview />
       <FeaturedInsights />
-      {/* <Connect /> */}
+      <Connect />
     </>
   );
 }
