@@ -33,7 +33,7 @@ export default function ContactMethods() {
               <div>
                 <h3 className="font-bold">Email</h3>
                 <p className="text-slate-600">
-                  hello@arindambanerjee.com
+                  iarindambanerjee@gmail.com
                 </p>
               </div>
             </div>
