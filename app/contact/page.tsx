@@ -1,3 +1,17 @@
-export default function Page(){
-return(<main className="max-w-5xl mx-auto px-8 py-24"><h1 className="text-4xl font-bold">Contact</h1><p className="mt-6">This page will be completed in Version 3.0.2.</p></main>);
+import Hero from "@/components/contact/Hero";
+import WaysToHelp from "@/components/contact/WaysToHelp";
+import ContactMethods from "@/components/contact/ContactMethods";
+import FAQ from "@/components/contact/FAQ";
+import CTA from "@/components/contact/CTA";
+
+export default function ContactPage() {
+  return (
+    <>
+      <Hero />
+      <WaysToHelp />
+      <ContactMethods />
+      <FAQ />
+      <CTA />
+    </>
+  );
 }

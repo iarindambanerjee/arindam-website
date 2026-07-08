@@ -35,7 +35,13 @@ export default function InsightsPage() {
 
             <div className="flex gap-4 text-sm text-slate-500">
 
-              <span>{article.date}</span>
+              <span>
+  {new Date(article.date).toLocaleDateString("en-GB", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  })}
+</span>
 
               <span>•</span>
 

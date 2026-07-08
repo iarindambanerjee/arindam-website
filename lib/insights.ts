@@ -19,6 +19,7 @@ export type Insight = {
 
 export function getAllInsights(): Insight[] {
   const files = fs.readdirSync(contentDirectory);
+  console.log("Markdown files:", files);
 
   const insights = files.map((file) => {
     const slug = file.replace(".md", "");
@@ -27,7 +28,11 @@ export function getAllInsights(): Insight[] {
 
     const fileContents = fs.readFileSync(fullPath, "utf8");
 
-    const { data } = matter(fileContents);
+    const parsed = matter(fileContents);
+
+console.log(slug, parsed.data);
+
+const { data } = parsed;
 
     return {
       slug,
@@ -35,6 +40,8 @@ export function getAllInsights(): Insight[] {
     };
   });
 
+
+  console.log("Insights found:", insights);
   return insights.sort(
     (a, b) =>
       new Date(b.date).getTime() -
