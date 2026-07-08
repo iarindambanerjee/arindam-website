@@ -21,15 +21,13 @@ export default function FAQ() {
           </p>
 
           <h2 className="mt-4 text-4xl font-black">
-            Conversations That Create Value
+            Topics I'm Passionate About
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Whether you're leading technology transformation,
-            evaluating AI opportunities or scaling engineering
-            capability, I'm always happy to exchange ideas and
-            discuss practical approaches that deliver measurable
-            business outcomes.
+            Technology is evolving rapidly, and I enjoy conversations around leadership,
+AI, enterprise architecture, delivery excellence and digital transformation.
+These are topics I regularly explore through my work and writing.
           </p>
 
         </div>

@@ -12,11 +12,11 @@ export default function Hero() {
         </h1>
 
         <p className="mt-8 text-xl leading-9 text-slate-600 max-w-3xl">
-          Whether you're planning an AI transformation,
-          modernising enterprise technology,
-          scaling delivery organisations or looking for
-          executive technology leadership,
-          I'd be delighted to start a conversation.
+          Whether you're interested in technology leadership,
+AI, digital transformation or enterprise delivery,
+I'm always happy to connect with fellow professionals,
+share ideas and discuss how technology can create
+meaningful business value.
         </p>
 
       </div>

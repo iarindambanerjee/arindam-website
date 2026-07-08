@@ -1,23 +1,23 @@
 const services = [
   {
-    title: "AI & Technology Strategy",
+    title: "Technology Strategy",
     description:
-      "Helping organisations identify where Artificial Intelligence and emerging technologies create measurable business value.",
+      "Experience aligning technology initiatives with long-term business objectives and measurable outcomes.",
   },
   {
     title: "Digital Transformation",
     description:
-      "Leading enterprise modernisation initiatives that align technology investments with business objectives.",
+      "Helping organisations modernise platforms, improve delivery capability and embrace new technologies responsibly.",
   },
- {
-  title: "Enterprise Technology Advisory",
-  description:
-    "Helping business and technology leaders shape technology strategy, strengthen delivery capabilities and align technology investments with long-term business objectives.",
-},
   {
-    title: "Technology Leadership & Advisory",
+    title: "Enterprise Delivery",
     description:
-      "Supporting leadership teams with technology strategy, delivery excellence, governance and organisational transformation.",
+      "Experience leading complex programmes, technology teams and enterprise transformation initiatives across multiple industries.",
+  },
+  {
+    title: "Technology Leadership",
+    description:
+      "Building high-performing teams, strengthening engineering culture and enabling organisations to deliver with confidence.",
   },
 ];
 
@@ -29,17 +29,17 @@ export default function WaysToHelp() {
         <div className="max-w-3xl">
 
           <p className="uppercase tracking-[0.3em] text-blue-600 font-semibold text-sm">
-            HOW I CAN HELP
+            AREAS OF EXPERTISE
           </p>
 
           <h2 className="mt-4 text-4xl font-black">
-            Practical Technology Leadership
+            Technology Leadership & Expertise
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Every organisation faces unique technology challenges. I enjoy partnering with business and technology 
-            leaders to discuss AI, digital transformation, enterprise architecture and technology strategy, drawing on 
-            more than two decades of experience leading complex transformation initiatives.
+            Over the past two decades I've had the opportunity to work across enterprise technology,
+AI, digital transformation and large-scale programme delivery.
+These are the areas I enjoy discussing and contributing to.
           </p>
 
         </div>

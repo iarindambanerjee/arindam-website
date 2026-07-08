@@ -16,10 +16,9 @@ export default function ContactMethods() {
           </h2>
 
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Whether you're exploring a leadership opportunity,
-            looking for strategic technology advice,
-            or planning a transformation initiative,
-            I'd be happy to discuss how I can help.
+            Whether you'd like to discuss technology leadership,
+AI, enterprise delivery or career opportunities,
+I'd be pleased to connect and exchange ideas.
           </p>
 
         </div>

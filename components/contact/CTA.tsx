@@ -10,14 +10,14 @@ export default function CTA() {
         </p>
 
         <h2 className="mt-6 text-5xl font-black tracking-tight">
-          Every Great Transformation Starts with a Conversation
+          Let's Connect
         </h2>
 
         <p className="mt-8 text-xl leading-9 text-slate-300 max-w-3xl mx-auto">
-          Whether you're exploring executive technology leadership,
-          planning an AI or digital transformation initiative,
-          or simply looking to exchange ideas,
-          I'd welcome the opportunity to connect.
+          I enjoy connecting with technology leaders,
+recruiters, founders and professionals who share
+an interest in technology, innovation and business transformation.
+If you'd like to connect, I'd be delighted to hear from you.
         </p>
 
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
