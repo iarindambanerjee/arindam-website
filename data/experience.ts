@@ -1,15 +1,17 @@
 export const experience = [
   {
     company: "Persistent Systems",
+
     role: "Senior Manager",
-    period: "2026 – Present",
+
+    period: "Apr 2026 – Present",
 
     summary:
-      "Partnering with enterprise clients to deliver technology transformation, AI initiatives and delivery excellence.",
+      "Leading enterprise technology transformation programmes, AI initiatives and strategic client engagements for global organisations, helping customers modernise platforms and accelerate business outcomes.",
 
     achievements: [
       "Technology Transformation",
-      "AI Strategy",
+      "Enterprise AI",
       "Executive Client Leadership",
     ],
   },
@@ -17,34 +19,34 @@ export const experience = [
   {
     company: "Red Apple Technologies",
 
-    role: "Technology & Delivery Leadership",
+    role: "Head of IT & Delivery",
 
-    period: "2025",
+    period: "Feb 2025 – Dec 2025",
 
     summary:
-      "Led technology delivery, strengthened governance and established AI capability across engineering teams.",
+      "Led the Technology and Delivery organisation, strengthening engineering governance, delivery excellence and AI adoption while improving operational maturity across multiple product teams.",
 
     achievements: [
-      "Delivery Excellence",
+      "Delivery Leadership",
       "AI Centre of Excellence",
-      "Operational Governance",
+      "Engineering Governance",
     ],
   },
 
   {
-    company: "Matellio",
+    company: "Matellio Inc.",
 
     role: "Senior Account Manager",
 
-    period: "2023 – 2025",
+    period: "Jul 2023 – Jan 2025",
 
     summary:
-      "Managed strategic technology accounts while helping organisations define digital transformation roadmaps.",
+      "Managed strategic enterprise accounts, technology consulting engagements and digital transformation initiatives while overseeing customer success, commercial growth and delivery excellence.",
 
     achievements: [
-      "Customer Success",
+      "Strategic Accounts",
       "Technology Consulting",
-      "Business Growth",
+      "$5M Portfolio",
     ],
   },
 
@@ -53,67 +55,66 @@ export const experience = [
 
     role: "Programme & Technology Leadership",
 
-    period: "2019 – 2023",
+    period: "Sep 2011 – Apr 2023",
 
     summary:
-      "Led enterprise programmes supporting cloud transformation, digital platforms and data initiatives.",
+      "Spent more than eleven years leading global technology transformation programmes across Product Data Platforms, Azure Cloud, Enterprise Architecture, SAP integration and digital innovation, partnering with business and technology leaders across multiple regions.",
 
     achievements: [
-      "Cloud Transformation",
-      "Enterprise Delivery",
       "Global Programmes",
+      "Azure Cloud",
+      "Enterprise Architecture",
     ],
   },
 
   {
-    company: "IBM",
+    company: "IBM India",
 
-    role: "Technology Consulting",
+    role: "Senior Technology Consultant",
 
-    period: "2008 – 2019",
+    period: "Jan 2008 – Aug 2011",
 
     summary:
-      "Delivered enterprise architecture, SOA and digital transformation initiatives across multiple industries.",
+      "Delivered enterprise architecture, SOA and large-scale technology transformation programmes for global clients across banking, manufacturing and other enterprise sectors.",
 
     achievements: [
       "Enterprise Architecture",
-      "Technology Consulting",
-      "Global Delivery",
+      "SOA",
+      "Global Consulting",
     ],
   },
 
   {
     company: "Accenture",
 
-    role: "Software Engineering",
+    role: "Software Engineer",
 
-    period: "2004 – 2008",
+    period: "Apr 2005 – Dec 2007",
 
     summary:
-      "Built a strong foundation in enterprise software engineering and large-scale technology delivery.",
+      "Built a strong technical foundation delivering enterprise software solutions, application development and consulting engagements within large-scale delivery environments.",
 
     achievements: [
       "Software Engineering",
-      "Enterprise Delivery",
+      "Enterprise Applications",
       "Consulting",
     ],
   },
 
   {
-  company: "ORG Informatics",
+    company: "ORG Informatics",
 
-  role: "Software Engineer Trainee",
+    role: "Software Engineer Trainee",
 
-  period: "2004",
+    period: "Jan 2005 – Mar 2005",
 
-  summary:
-    "Started my professional journey building a strong foundation in enterprise software development, client delivery and engineering best practices.",
+    summary:
+      "Started my professional career developing enterprise software solutions while gaining hands-on experience in application design, databases and manufacturing systems.",
 
-  achievements: [
-    "Design",
-    "Database",
-    "Manufacturing Processes",
-  ],
-
-   },
+    achievements: [
+      "Software Development",
+      "Database Design",
+      "Manufacturing Systems",
+    ],
+  },
 ];
