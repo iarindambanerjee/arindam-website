@@ -1,4 +1,8 @@
 import { getInsight } from "@/lib/insights";
+import Link from "next/link";
+import { PlayCircle } from "lucide-react";
+import { contentLinks } from "@/data/contentLinks";
+
 
 type Props = {
   params: Promise<{
@@ -42,6 +46,33 @@ export default async function InsightPage({ params }: Props) {
           __html: article.contentHtml,
         }}
       />
+
+      {contentLinks[slug as keyof typeof contentLinks] && (
+  <section className="mt-20 rounded-3xl border border-slate-200 bg-slate-50 p-10">
+
+    <p className="uppercase tracking-[0.3em] text-blue-600 text-sm font-semibold">
+      Prefer watching?
+    </p>
+
+    <h2 className="mt-3 text-3xl font-bold">
+      Watch the accompanying Executive Insight
+    </h2>
+
+    <p className="mt-4 text-slate-600 text-lg">
+      This article is also available as a concise executive briefing on YouTube.
+    </p>
+
+    <Link
+      href={contentLinks[slug as keyof typeof contentLinks].video}
+      target="_blank"
+      className="inline-flex items-center gap-3 mt-8 rounded-xl bg-blue-600 px-6 py-4 text-white font-semibold hover:bg-blue-700 transition"
+    >
+      <PlayCircle size={20} />
+      {contentLinks[slug as keyof typeof contentLinks].label}
+    </Link>
+
+  </section>
+)}
 
     </main>
   );

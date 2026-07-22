@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import StructuredData from "@/components/seo/StructuredData";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -107,17 +108,21 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-slate-900`}
       >
         <StructuredData />
-        <Navbar />
 
-        <main>
-          {children}
-        </main>
-        
+        <div className="flex min-h-screen flex-col">
+          <Navbar />
+
+          <main className="flex-1">
+            {children}
+          </main>
+
+          <Footer />
+        </div>
+
         <GoogleAnalytics
-        gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
-       />
+          gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID!}
+        />
       </body>
-      
     </html>
   );
 }

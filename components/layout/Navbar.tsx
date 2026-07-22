@@ -40,16 +40,9 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
 
-          <nav className="hidden md:flex items-center gap-10">
+         <nav className="hidden md:flex items-center gap-7">
 
-            {[
-  { name: "Home", href: "/" },
-  { name: "About", href: "/about" },
-  { name: "Experience", href: "/experience" },
-  { name: "Industries", href: "/industries" },
-  { name: "Insights", href: "/insights" },
-  { name: "Contact", href: "/contact" },
-].map((item) => {
+  {navigation.map((item) => {
 
               const active = pathname === item.href;
 
