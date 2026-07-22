@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { siteConfig } from "@/data/siteConfig";
 
 export default function CTA() {
   return (
@@ -23,14 +24,14 @@ If you'd like to connect, I'd be delighted to hear from you.
         <div className="mt-12 flex flex-col sm:flex-row justify-center gap-6">
 
           <Link
-            href="mailto:iarindambanerjee@gmail.com"
+            href={`mailto:${siteConfig.email}`}
             className="inline-flex items-center justify-center rounded-xl bg-blue-600 px-8 py-4 text-lg font-semibold text-white hover:bg-blue-700 transition-all duration-300"
           >
             Email Me
           </Link>
 
           <Link
-            href="https://www.linkedin.com/in/arindambanerjeeit/"
+            href={siteConfig.social.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-xl border border-slate-600 px-8 py-4 text-lg font-semibold hover:bg-slate-800 transition-all duration-300"

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Container from "@/components/ui/Container";
+import { siteConfig } from "@/data/siteConfig";
 
 export default function Connect() {
   return (
@@ -18,7 +19,7 @@ export default function Connect() {
 
           <div className="mt-10 flex justify-center gap-4 flex-wrap">
             <Link
-              href="https://www.linkedin.com/in/arindambanerjeeit/"
+              href={siteConfig.social.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-lg bg-blue-600 px-8 py-4 font-semibold text-white hover:bg-blue-700 transition"

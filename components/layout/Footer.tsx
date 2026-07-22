@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { Mail } from "lucide-react";
+import { siteConfig } from "@/data/siteConfig";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -113,7 +114,7 @@ export default function Footer() {
             <div className="flex flex-col gap-3">
 
               <Link
-                href="https://www.linkedin.com/in/arindambanerjeeit/"
+                href={siteConfig.social.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 transition hover:text-white"
@@ -140,7 +141,7 @@ export default function Footer() {
               </Link>
 
               <Link
-                href="mailto:iarindambanerjee@gmail.com"
+                href={`mailto:${siteConfig.email}`}
                 className="inline-flex items-center gap-2 text-slate-400 transition hover:text-white"
               >
                 <Mail size={16} />

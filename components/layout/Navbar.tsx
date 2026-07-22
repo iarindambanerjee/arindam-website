@@ -8,6 +8,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { siteConfig } from "@/data/siteConfig";
 
 
 
@@ -67,11 +68,10 @@ export default function Navbar() {
 
          
 
-        <Link
-  href="https://www.linkedin.com/in/arindambanerjeeit/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition-all duration-300"
+        <Link href={siteConfig.social.linkedin}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hidden md:inline-flex bg-slate-900 text-white px-6 py-3 rounded-xl font-semibold hover:bg-slate-800 transition-all duration-300"
 >
   Connect on LinkedIn
 </Link>

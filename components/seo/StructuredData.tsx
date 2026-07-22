@@ -1,13 +1,15 @@
+import { siteConfig } from "@/data/siteConfig";
+
 export default function StructuredData() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Person",
 
-    name: "Arindam Banerjee",
+    name: siteConfig.name,
 
-    url: "https://www.arindam-banerjee.com",
+    url: siteConfig.website,
 
-    image: "https://www.arindam-banerjee.com/og-image.jpg",
+    image: `${siteConfig.website}/og-image.jpg`,
 
     jobTitle: "Senior Manager",
 
@@ -27,7 +29,9 @@ export default function StructuredData() {
     ],
 
     sameAs: [
-      "https://www.linkedin.com/in/arindambanerjeeit/",
+      siteConfig.social.linkedin,
+      siteConfig.social.github,
+      siteConfig.social.youtube,
     ],
   };
 

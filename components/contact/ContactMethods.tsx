@@ -1,4 +1,5 @@
 import { Mail,MapPin, Clock } from "lucide-react";
+import { siteConfig } from "@/data/siteConfig";
 
 export default function ContactMethods() {
   return (
@@ -46,7 +47,7 @@ I'd be pleased to connect and exchange ideas.
               <div>
                 <h3 className="font-bold">LinkedIn</h3>
                 <a
-                  href="https://www.linkedin.com/in/arindambanerjee/"
+                  href={siteConfig.social.linkedin}
                   target="_blank"
                   className="text-blue-600 hover:underline"
                 >

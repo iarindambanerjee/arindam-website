@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import { siteConfig } from "@/data/siteConfig";
 import StructuredData from "@/components/seo/StructuredData";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
@@ -18,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.arindam-banerjee.com"),
+  metadataBase: new URL(siteConfig.website),
 
  title: {
   default: "Arindam Banerjee | Technology Leadership",
@@ -43,15 +44,15 @@ export const metadata: Metadata = {
   "Persistent Systems",
 ],
 
-  authors: [
-    {
-      name: "Arindam Banerjee",
-    },
-  ],
+ authors: [
+  {
+    name: siteConfig.name,
+  },
+],
 
-  creator: "Arindam Banerjee",
+creator: siteConfig.name,
 
-  publisher: "Arindam Banerjee",
+publisher: siteConfig.name,
 
   robots: {
     index: true,
@@ -65,8 +66,8 @@ export const metadata: Metadata = {
     openGraph: {
     type: "website",
     locale: "en_GB",
-    url: "https://www.arindam-banerjee.com",
-    siteName: "Arindam Banerjee",
+    url: siteConfig.website,
+    siteName: siteConfig.name,
 
     title:
   "Arindam Banerjee | Technology Leadership",

@@ -1,11 +1,13 @@
+import { siteConfig } from "@/data/siteConfig";
+
 export const profile = {
-  name: "Arindam Banerjee",
+  name: siteConfig.name,
 
   title: "Senior Manager | Persistent Systems",
 
   tagline: "Technology Leadership That Creates Lasting Business Value",
 
-  linkedin: "https://www.linkedin.com/in/arindambanerjeeit/",
+  linkedin: siteConfig.social.linkedin,
 
-  email: "arin_baner@yahoo.com",
+  email: siteConfig.email,
 };
