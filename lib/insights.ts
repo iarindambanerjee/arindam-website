@@ -15,11 +15,11 @@ export type Insight = {
   category: string;
   readingTime: string;
   featured: boolean;
+  image?: string;
 };
 
 export function getAllInsights(): Insight[] {
   const files = fs.readdirSync(contentDirectory);
-  
 
   const insights = files.map((file) => {
     const slug = file.replace(".md", "");
@@ -30,9 +30,7 @@ export function getAllInsights(): Insight[] {
 
     const parsed = matter(fileContents);
 
-
-
-const { data } = parsed;
+    const { data } = parsed;
 
     return {
       slug,
@@ -40,8 +38,6 @@ const { data } = parsed;
     };
   });
 
-
-  
   return insights.sort(
     (a, b) =>
       new Date(b.date).getTime() -
@@ -49,7 +45,13 @@ const { data } = parsed;
   );
 }
 
-export async function getInsight(slug: string) {
+export async function getInsight(
+  slug: string
+): Promise<
+  Insight & {
+    contentHtml: string;
+  }
+> {
   const fullPath = path.join(contentDirectory, `${slug}.md`);
 
   const fileContents = fs.readFileSync(fullPath, "utf8");

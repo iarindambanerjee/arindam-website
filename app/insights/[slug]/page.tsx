@@ -2,6 +2,7 @@ import { getInsight } from "@/lib/insights";
 import Link from "next/link";
 import { PlayCircle } from "lucide-react";
 import { contentLinks } from "@/data/contentLinks";
+import Image from "next/image";
 
 
 type Props = {
@@ -17,6 +18,19 @@ export default async function InsightPage({ params }: Props) {
 
   return (
     <main className="max-w-3xl mx-auto px-8 py-24">
+
+        {article.image && (
+  <div className="mb-12 overflow-hidden rounded-3xl border border-slate-200 shadow-sm">
+    <Image
+      src={article.image}
+      alt={article.title}
+      width={1600}
+      height={900}
+      priority
+      className="w-full h-auto object-cover"
+    />
+  </div>
+)}
 
       <div className="inline-flex rounded-full bg-blue-100 px-4 py-1 text-sm font-semibold text-blue-700">
         {article.category}
