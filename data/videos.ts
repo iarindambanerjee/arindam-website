@@ -1,16 +1,27 @@
-export interface Video {
-  id: number;
-  title: string;
-  episode: string;
-  description: string;
-  youtubeUrl: string;
-  thumbnail: string;
-  duration: string;
-  published: string;
-  featured?: boolean;
-}
-
 export const videos: Video[] = [
+  {
+    id: 5,
+    title: "Building an AI Center of Excellence: A Practical Playbook for Enterprise Leaders",
+    episode: "Episode 5",
+    description:
+      "A practical framework for building an AI Center of Excellence that balances governance, innovation, and enterprise-wide adoption.",
+    youtubeUrl: "https://www.youtube.com/watch?v=FInMr9PDvrs",
+    thumbnail: "https://img.youtube.com/vi/FInMr9PDvrs/maxresdefault.jpg",
+    duration: "TBD",
+    published: "Latest",
+    featured: true,
+  },
+  {
+    id: 4,
+    title: "Why Every Enterprise Needs an AI Center of Excellence",
+    episode: "Episode 4",
+    description:
+      "Exploring why organisations need an AI Center of Excellence to scale AI initiatives successfully.",
+    youtubeUrl: "https://www.youtube.com/watch?v=l0zk40H5Hyw",
+    thumbnail: "https://img.youtube.com/vi/l0zk40H5Hyw/maxresdefault.jpg",
+    duration: "TBD",
+    published: "Previous",
+  },
   {
     id: 3,
     title: "Building AI Systems: Why the Model Is Only One Piece of the Puzzle",
@@ -20,8 +31,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=B-8Epv_OKhw",
     thumbnail: "https://img.youtube.com/vi/B-8Epv_OKhw/maxresdefault.jpg",
     duration: "4:44",
-    published: "Latest",
-    featured: true,
+    published: "Earlier",
   },
   {
     id: 2,
@@ -32,7 +42,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=6kVAJUt3SrY",
     thumbnail: "https://img.youtube.com/vi/6kVAJUt3SrY/maxresdefault.jpg",
     duration: "2:29",
-    published: "Previous",
+    published: "Earlier",
   },
   {
     id: 1,
