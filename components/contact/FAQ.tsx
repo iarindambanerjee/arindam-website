@@ -6,7 +6,8 @@ const topics = [
   "Technology Modernisation",
   "Cloud & Platform Strategy",
   "Building High-Performing Technology Teams",
-  "Fractional CIO / CTO Advisory",
+  "Technology Strategy & Innovation",
+
 ];
 
 export default function FAQ() {
