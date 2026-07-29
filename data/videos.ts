@@ -1,3 +1,16 @@
+export interface Video {
+  id: number;
+  title: string;
+  episode: string;
+  description: string;
+  youtubeUrl: string;
+  thumbnail: string;
+  duration: string;
+  published: string;
+  featured?: boolean;
+}
+
+
 export const videos: Video[] = [
   {
     id: 5,
