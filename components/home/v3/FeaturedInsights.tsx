@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 
 import Container from "@/components/ui/Container";
@@ -6,22 +5,22 @@ import SectionTitle from "@/components/ui/SectionTitle";
 
 const articles = [
   {
-    title: "AI Doesn't Replace Leadership. It Amplifies It.",
+    title: "AI ROI Isn't a Measurement Problem. It's an Ownership Problem",
     description:
-      "Why executive leadership becomes more important—not less—in an AI-driven enterprise.",
-    href: "/insights",
+      "Why successful enterprise AI depends on executive ownership, governance and accountability—not dashboards alone.",
+    href: "/insights/ai-roi-isnt-a-measurement-problem-its-an-ownership-problem",
   },
   {
-    title: "Technology Should Follow Strategy",
+    title: "Building an AI Center of Excellence",
     description:
-      "Enterprise transformation succeeds when business strategy leads technology decisions.",
-    href: "/insights",
+      "Why every enterprise needs an AI Center of Excellence to accelerate innovation, governance and business value.",
+    href: "/insights/building-an-ai-center-of-excellence",
   },
   {
-    title: "Building High-Performing Technology Organizations",
+    title: "Building AI Systems: Why the Model Is Only One Piece of the Puzzle",
     description:
-      "Lessons learned from leading delivery, transformation and engineering teams across industries.",
-    href: "/insights",
+      "Enterprise AI success depends on data, governance, architecture and operational excellence—not just the AI model.",
+    href: "/insights/building-ai-systems-why-the-model-is-only-one-piece-of-the-puzzle",
   },
 ];
 
@@ -31,7 +30,7 @@ export default function FeaturedInsights() {
       <Container>
         <SectionTitle
           title="Latest Insights"
-          subtitle="Perspectives on technology leadership, AI and digital transformation."
+          subtitle="Perspectives on technology leadership, AI strategy and enterprise transformation."
         />
 
         <div className="grid gap-8 md:grid-cols-3">
@@ -41,7 +40,7 @@ export default function FeaturedInsights() {
               href={article.href}
               className="group rounded-2xl border border-slate-200 bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
             >
-              <h3 className="text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+              <h3 className="text-2xl font-bold text-slate-900 transition-colors group-hover:text-blue-600">
                 {article.title}
               </h3>
 

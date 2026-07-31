@@ -10,8 +10,19 @@ export interface Video {
   featured?: boolean;
 }
 
-
 export const videos: Video[] = [
+  {
+    id: 6,
+    title: "AI ROI Isn't a Measurement Problem. It's an Ownership Problem",
+    episode: "Episode 6",
+    description:
+      "Why measuring AI success starts with executive ownership, governance and accountability—not dashboards alone.",
+    youtubeUrl: "https://www.youtube.com/watch?v=wJUGm1j9_kM",
+    thumbnail: "https://img.youtube.com/vi/wJUGm1j9_kM/maxresdefault.jpg",
+    duration: "4:00",
+    published: "Latest",
+    featured: true,
+  },
   {
     id: 5,
     title: "Building an AI Center of Excellence: A Practical Playbook for Enterprise Leaders",
@@ -20,9 +31,8 @@ export const videos: Video[] = [
       "A practical framework for building an AI Center of Excellence that balances governance, innovation, and enterprise-wide adoption.",
     youtubeUrl: "https://www.youtube.com/watch?v=FInMr9PDvrs",
     thumbnail: "https://img.youtube.com/vi/FInMr9PDvrs/maxresdefault.jpg",
-    duration: "TBD",
-    published: "Latest",
-    featured: true,
+    duration: "4:24",
+    published: "Previous",
   },
   {
     id: 4,
@@ -32,8 +42,8 @@ export const videos: Video[] = [
       "Exploring why organisations need an AI Center of Excellence to scale AI initiatives successfully.",
     youtubeUrl: "https://www.youtube.com/watch?v=l0zk40H5Hyw",
     thumbnail: "https://img.youtube.com/vi/l0zk40H5Hyw/maxresdefault.jpg",
-    duration: "TBD",
-    published: "Previous",
+    duration: "4:22",
+    published: "Earlier",
   },
   {
     id: 3,

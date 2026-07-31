@@ -6,34 +6,36 @@ export default function FeaturedVideo() {
   const latest = videos.find((v) => v.featured) ?? videos[0];
 
   return (
-    <section className="py-24 bg-slate-50">
-
-      <div className="max-w-7xl mx-auto px-8">
-
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-
+    <section className="bg-slate-50 py-24">
+      <div className="mx-auto max-w-7xl px-8">
+        <div className="grid items-center gap-16 lg:grid-cols-2">
           {/* Left */}
-
           <div>
+            <div className="inline-flex items-center rounded-full bg-blue-100 px-5 py-2 text-sm font-semibold text-blue-700">
+              🎥 Latest Executive Insight
+            </div>
 
-            <p className="uppercase tracking-[0.3em] text-blue-600 font-semibold text-sm">
-              Latest Executive Insight
-            </p>
-
-            <h2 className="mt-4 text-5xl font-black leading-tight">
+            <h2 className="mt-6 text-5xl font-black leading-tight text-slate-900">
               {latest.title}
             </h2>
 
-            <p className="mt-6 text-xl text-slate-600 leading-8">
+            <div className="mt-5 flex flex-wrap items-center gap-3 text-sm text-slate-500">
+              <span>{latest.episode}</span>
+              <span>•</span>
+              <span>{latest.duration}</span>
+              <span>•</span>
+              <span>Enterprise AI</span>
+            </div>
+
+            <p className="mt-8 text-xl leading-8 text-slate-600">
               {latest.description}
             </p>
 
-            <div className="flex gap-4 mt-10">
-
+            <div className="mt-10 flex flex-wrap gap-4">
               <Link
                 href={latest.youtubeUrl}
                 target="_blank"
-                className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-4 text-white font-semibold hover:bg-blue-700 transition"
+                className="inline-flex items-center gap-2 rounded-xl bg-blue-600 px-6 py-4 font-semibold text-white transition hover:bg-blue-700"
               >
                 <PlayCircle size={20} />
                 Watch on YouTube
@@ -41,33 +43,37 @@ export default function FeaturedVideo() {
 
               <Link
                 href="/videos"
-                className="inline-flex items-center gap-2 rounded-xl border border-slate-300 px-6 py-4 font-semibold hover:bg-white transition"
+                className="inline-flex items-center gap-2 rounded-xl border border-slate-300 px-6 py-4 font-semibold transition hover:bg-white"
               >
                 View All Videos
                 <ArrowRight size={18} />
               </Link>
-
             </div>
-
           </div>
 
           {/* Right */}
-
           <Link
             href={latest.youtubeUrl}
             target="_blank"
+            className="group relative block overflow-hidden rounded-3xl shadow-2xl"
           >
             <img
               src={latest.thumbnail}
               alt={latest.title}
-              className="rounded-3xl shadow-2xl hover:scale-[1.02] transition"
+              className="w-full transition duration-500 group-hover:scale-105"
             />
+
+            <div className="absolute inset-0 flex items-center justify-center bg-black/10 transition group-hover:bg-black/20">
+              <div className="rounded-full bg-white p-6 shadow-xl transition group-hover:scale-110">
+                <PlayCircle
+                  size={42}
+                  className="fill-blue-600 text-blue-600"
+                />
+              </div>
+            </div>
           </Link>
-
         </div>
-
       </div>
-
     </section>
   );
 }
