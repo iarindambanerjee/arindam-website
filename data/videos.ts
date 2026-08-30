@@ -12,6 +12,40 @@ export interface Video {
 
 export const videos: Video[] = [
   {
+    id: 9,
+    title: "The Personal AI Toolkit: Which Tools Actually Matter (And Why Most Don't)",
+    episode: "Episode 9",
+    description:
+      "Why mastering a handful of AI tool categories matters far more than collecting dozens of apps.",
+    youtubeUrl: "https://www.youtube.com/watch?v=_afUutZjmX8",
+    thumbnail: "https://img.youtube.com/vi/_afUutZjmX8/maxresdefault.jpg",
+    duration: "10:00",
+    published: "Latest",
+    featured: true,
+  },
+  {
+    id: 8,
+    title: "From Macro to the Micro: How to Get Started with AI If You Want to Make the Transition",
+    episode: "Episode 8",
+    description:
+      "The practical guide to making a personal AI transition—from fluency and application to judgment and leadership.",
+    youtubeUrl: "https://www.youtube.com/watch?v=AFcm0ISCBOM",
+    thumbnail: "https://img.youtube.com/vi/AFcm0ISCBOM/maxresdefault.jpg",
+    duration: "13:00",
+    published: "Previous",
+  },
+ {
+  id: 7,
+  title: "AI and Geopolitics",
+  episode: "Episode 7",
+  description:
+    "Why compute, data and leverage matter more than winning the AI race.",
+  youtubeUrl: "https://www.youtube.com/watch?v=p8wMPEZ1BTU",
+  thumbnail: "https://img.youtube.com/vi/p8wMPEZ1BTU/maxresdefault.jpg",
+  duration: "8:00",
+  published: "Previous",
+},
+  {
     id: 6,
     title: "AI ROI Isn't a Measurement Problem. It's an Ownership Problem",
     episode: "Episode 6",
@@ -20,8 +54,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=wJUGm1j9_kM",
     thumbnail: "https://img.youtube.com/vi/wJUGm1j9_kM/maxresdefault.jpg",
     duration: "4:00",
-    published: "Latest",
-    featured: true,
+    published: "Earlier",
   },
   {
     id: 5,
@@ -32,7 +65,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=FInMr9PDvrs",
     thumbnail: "https://img.youtube.com/vi/FInMr9PDvrs/maxresdefault.jpg",
     duration: "4:24",
-    published: "Previous",
+    published: "Earlier",
   },
   {
     id: 4,
