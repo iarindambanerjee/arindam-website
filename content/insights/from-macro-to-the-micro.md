@@ -127,7 +127,7 @@ The transition is personal, and it's available today, entirely independent of wh
 
 Not everyone is starting from the same place. A few honest starting points, depending on where you sit:
 
-![Role-specific starting points for the personal AI transition.](./images/insights/from-macro-to-the-micro/figure4-role-specific.png)
+![Role-specific starting points for the personal AI transition.](/images/insights/from-macro-to-the-micro/figure4-role-specific.png)
 
 **If you're an individual contributor:** Start with Stage 1 and 2 on your single most repeated weekly task. Don't try to change your whole workflow — change one recurring piece of it, four times, and build from there.
 
