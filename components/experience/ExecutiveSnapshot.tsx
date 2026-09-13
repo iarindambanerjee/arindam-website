@@ -28,8 +28,7 @@ export default function ExecutiveSnapshot() {
         <SectionTitle
           title="Executive Career Snapshot"
           subtitle="A career built on technology leadership, transformation and business outcomes."
-          centered
-          dark
+          centered dark
         />
 
         <div className="mt-16 grid gap-8 md:grid-cols-4">

@@ -15,7 +15,7 @@ export default function DiscoveryCallButton({
   source,
 }: DiscoveryCallButtonProps) {
   const handleClick = () => {
-  console.log("Discovery Call clicked", source);
+ 
 
   trackEvent("book_discovery_call", {
     source,
