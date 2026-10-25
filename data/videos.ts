@@ -12,6 +12,18 @@ export interface Video {
 
 export const videos: Video[] = [
   {
+    id: 11,
+    title: "AI Guardrails Aren't a Technology Problem. They're a Timing Problem.",
+    episode: "Episode 11",
+    description:
+      "Why effective AI guardrails need to be designed before deployment—not patched together after incidents.",
+    youtubeUrl: "https://www.youtube.com/watch?v=o_q-sdzcIew",
+    thumbnail: "https://img.youtube.com/vi/o_q-sdzcIew/maxresdefault.jpg",
+    duration: "2:31",
+    published: "Latest",
+    featured: true,
+  },
+  {
     id: 10,
     title: "My Year with Three AI Tools: What Each One Actually Earned",
     episode: "Episode 10",
@@ -20,8 +32,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=mL2-tAeUIQ8",
     thumbnail: "https://img.youtube.com/vi/mL2-tAeUIQ8/maxresdefault.jpg",
     duration: "2:34",
-    published: "Latest",
-    featured: true,
+    published: "Previous",
   },
   {
     id: 9,
@@ -32,7 +43,7 @@ export const videos: Video[] = [
     youtubeUrl: "https://www.youtube.com/watch?v=_afUutZjmX8",
     thumbnail: "https://img.youtube.com/vi/_afUutZjmX8/maxresdefault.jpg",
     duration: "2:14",
-    published: "Previous",
+    published: "Earlier",
   },
   {
     id: 8,
